@@ -7,8 +7,8 @@
             (html5
               [:head
                [:title "pinot-exploration"]
-               (include-css "/css/reset.css")
-               (include-js "/cljs/bootstrap.js")]
+               (include-css "/css/reset.css")]
               [:body
                [:div#wrapper
-                content]]))
+                content] 
+               (include-js "/cljs/bootstrap.js")]))
